@@ -103,12 +103,12 @@ const Layout = () => {
           notifications={notificationItems}
           appLogoSmall="../assets/images/logo_small.png"
           toggleMenuEvent={onMenuToggle}
-          productName="Integrated"
+          productName="Integrate-UI-"
           onChangeMenu={onClickMenuItem}
           onCancelNotificationClick={cancelHandler}
           onConfirmNotificationClick={okHandler}
           onHideNotifications={onHideNotification}
-          productSubHeading="Insights"
+          productSubHeading=" Component"
           userImage="../assets/images/shubham_photo.jpg"
           userName={userName}
           userEmail={userEmail}
