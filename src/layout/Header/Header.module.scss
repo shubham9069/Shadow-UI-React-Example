@@ -1,6 +1,64 @@
 .header-conatiner {
-    // background: green;
-    // width: 90%;
-    margin: 5px auto;
-    // height: 100%;
+  // background: green;
+  // width: 90%;
+  margin: 5px auto;
+  // height: 100%;
+
+  .section-headline {
+    margin: 3rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    .headings {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      gap: 10px;
+      width: fit-content;
+      .heading1 {
+        font-size: 48px;
+        color: rgb(30, 27, 27);
+        font-weight: 700;
+        font-family: cursive;
+      }
+      .sub-heading1 {
+        max-width: 500px;
+        text-align: center;
+        font-weight: 500;
+        color: rgb(44, 43, 43);
+       
+      }
+    }
+    .button-group {
+      display: flex;
+      gap: 15px;
+    }
+  }
+  .step-installation{
+    margin: 2rem ;
+    color: black;
+
+    li{
+        color: rgb(40, 37, 37);
+        margin: 1rem 0;
+        font-weight: 600;
+        p{
+            margin: 0.5rem ;
+            font-size: 15px;
+            line-height: 20px;
+            font-weight: 500;
+            color: rgb(95, 106, 127);
+          
+        }
+          .step-image{
+                width: 400px;
+                object-fit: contain;
+                margin: 1rem;
+                border-radius: 6px;
+            }
+    }
+  }
 }
