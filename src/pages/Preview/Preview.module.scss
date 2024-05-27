@@ -1,6 +1,5 @@
 .container {
   width: 100%;
-  height: 100%;
   display: flex;
   padding: 1rem;
   flex-direction: column;
@@ -34,6 +33,9 @@
     // align-items: center;
     gap: 0.5rem;
   }
+}
+.dummy-data-file{
+  padding: 0 2rem ;
 }
 
    

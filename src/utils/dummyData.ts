@@ -1509,11 +1509,6 @@ export const sideMenuData = [
     useTemplate: false,
   },
   {
-    label: "Sales Tree",
-    url: "/sales-tree",
-    icon: "pi pi-th-large",
-  },
-  {
     label: "Select Button",
     url: "/select-button",
     icon: "pi pi-th-large",
@@ -1521,11 +1516,6 @@ export const sideMenuData = [
   {
     label: "Side Menu",
     url: "/side-menu",
-    icon: "pi pi-th-large",
-  },
-  {
-    label: "Share Popup",
-    url: "/share-popup",
     icon: "pi pi-th-large",
   },
   {
@@ -1566,11 +1556,6 @@ export const sideMenuData = [
   {
     label: "Toolbar",
     url: "/toolbar",
-    icon: "pi pi-th-large",
-  },
-  {
-    label: "Toolkit Sidebar",
-    url: "/toolkit-sidebar",
     icon: "pi pi-th-large",
   },
   {

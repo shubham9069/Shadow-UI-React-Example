@@ -98,36 +98,6 @@ const Toolkit = () => {
         selectToolkitHandler={selectToolkitHandler}
         toggleChatUI={toggleChatUI}
       ></ShadowToolkit>
-      {/* <ng-container *ngIf="showChatUi">
-            <shadow-chatbox (popularDataClickHandler)="popularDataClickHandler($event)"
-                (areaActionHandler)="areaActionHandler($event)" (onActionSelectHandler)="onActionSelectHandler($event)"
-                (recomendedPromptHandler)="recomendedPromptHandler($event)" (closeSideBar)="selectToolkitHandler('Ai')"
-                (toggleChatUI)="toggleChatUI()" [chatBoxHeader]="chatBoxHeader" [chatBoxStyle]="chatBoxStyle"
-                [emptyChatContent]="emptyChatContent" [popularDataSkill]="popularDataSkill"
-                [chatBoxHeader]="chatBoxHeader" [chatBoxStyle]="chatBoxStyle" [savedTemplates]="savedTemplates"
-                [showChat]="showChat" [query]="query" [chatMessages]="chatMessages" (toggleChat)="toggleChat($event)"
-                [userIcon]="userIcon" [userName]="userName" [chatAiName]="chatAiName" [promptList]="promptList"
-                 [isInputDisabled]="isInputDisabled"
-                [aiLoading]="aiLoading" (onSubmit)="askQuestion($event)">
-                <ng-template #customContentTemplate1>
-                    <ng-container>
-                        <a href="">Popular data Skills Are</a>
-                    </ng-container>
-                </ng-template>
-                <ng-template #customContentTemplate2>
-                    <ng-container>
-                        <a href="">Omega</a>
-                    </ng-container>
-                </ng-template>
-
-                <ng-template #uitemplate>
-                    <ng-container *ngIf="showChatUi==''">
-                        <a href="">Omega</a>
-                    </ng-container>
-                </ng-template>
-
-            </shadow-chatbox>
-        </ng-container> */}
     </div>
   );
 };

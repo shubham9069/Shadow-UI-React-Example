@@ -1,0 +1,27 @@
+.code-mirror-container {
+  width: 100%;
+  padding: 2rem;
+  height: 500px;
+  position: relative;
+  
+  #copy-button {
+    position: absolute;
+    top: calc(2rem + 20px);
+    right: calc(2rem + 20px);
+    background-color: rgb(29, 28, 42);
+    border: 0.5px solid rgba(255, 255, 255, 0.501);
+    width: 30px;
+    height: 30px;
+    border-radius: 4px;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+
+    span {
+      color: white;
+      font-size: 13px;
+    }
+  }
+}

@@ -4,7 +4,6 @@ import Button from "../pages/Button/Button";
 import Table from "../pages/Table/Table";
 import Toolbar from "../pages/Toolbar/Toolbar";
 import Toolkit from "../pages/Toolkit/Toolkit";
-import ToolkitSidebar from "../pages/ToolkitSidebar/ToolkitSidebar";
 import SideMenu from "../pages/SideMenu/SideMenu";
 import Tab from "../pages/Tab/Tab";
 import Card from "../pages/Card/Card";
@@ -16,7 +15,7 @@ import Chip from "../pages/Chip/Chip";
 import Tag from "../pages/Tag/Tag";
 import TieredMenu from "../pages/TieredMenu/TieredMenu";
 import Dropdown from "../pages/Dropdown/Dropdown";
-import Accordion from "../pages/Accordian/Accordion";
+import Accordion from "../pages/Accordion/Accordion";
 import Message from "../pages/Message/Message";
 import ButtonGroup from "../pages/ButtonGroup/ButtonGroup";
 import Popup from "../pages/Popup/Popup";
@@ -47,59 +46,59 @@ import Calendar from "../pages/Calendar/Calendar";
 import Tooltip from "../pages/Tooltip/Tooltip";
 import Tree from "../pages/Tree/Tree";
 import Header from "../layout/Header/Header";
+import CodeEditor from "../layout/CodeEditor/CodeEditor";
 
 const PageRoutes = () => {
   return (
     <>
       <Routes>
         <Route path="/" element={<Header />} />
-        <Route path="banner" element={<Banner />} />
-        <Route path="area-action" element={<AreaAction />} />
-        <Route path="button" element={<Button />} />
-        <Route path="button-group" element={<ButtonGroup />} />
-        <Route path="badge" element={<Badge/>} />
-        <Route path="checkbox" element={<Checkbox />} />
-        <Route path="table" element={<Table />} />
-        <Route path="toolbar" element={<Toolbar />} />
-        <Route path="toolkit" element={<Toolkit />} />
-        <Route path="toolkit-sidebar" element={<ToolkitSidebar />} />
-        <Route path="side-menu" element={<SideMenu />} />
-        <Route path="tab" element={<Tab />} />
-        <Route path="card" element={<Card />} />
-        <Route path="chart" element={<Chart />} />
-        <Route path="dialog" element={<Dialog />} />
-        <Route path="chatbox" element={<ChatBox />} />
-        <Route path="avatar" element={<Avatar />} />
-        <Route path="chip" element={<Chip />} />
-        <Route path="tag" element={<Tag />} />
-        <Route path="tiered-menu" element={<TieredMenu />} />
-        <Route path="dropdown" element={<Dropdown />} />
-        <Route path="accordion" element={<Accordion />} />
-        <Route path="message" element={<Message />} />
-        <Route path="popup" element={<Popup />} />
-        <Route path="toast" element={<Toast />} />
-        <Route path="steps" element={<Steps />} />
-        <Route path="notifications-panel" element={<NotificationsPanel />} />
-        <Route path="input-switch" element={<InputSwitch />} />
-        <Route path="radio" element={<Radio />} />
-        <Route path="breadcrumb" element={<Breadcrumb />} />
-        <Route path="dropbox" element={<Dropbox />} />
-        <Route path="preview" element={<Preview />} />
-        <Route path="divider" element={<Divider />} />
-        <Route path="multi-select" element={<MultiSelect />} />
-        <Route path="input-mask" element={<InputMask />} />
-        <Route path="input-text" element={<InputText />} />
-        <Route path="overlay-panel" element={<OverlayPanel />} />
-        <Route path="panel" element={<Panel />} />
-        <Route path="input-group" element={<InputGroup />} />
-        <Route path="select-button" element={<SelectButton />} />
-        <Route path="message-inline" element={<MessageInline />} />
-        <Route path="text-area" element={<InputTextArea />} />
-        <Route path="table" element={<Table />} />
-        <Route path="calendar" element={<Calendar />} />
-        <Route path="tooltip" element={<Tooltip />} />
-        <Route path="tree" element={<Tree />} />
-       </Routes>
+          <Route path="banner" element={<Banner />} />
+          <Route path="area-action" element={<AreaAction />} />
+          <Route path="button" element={<Button />} />
+          <Route path="button-group" element={<ButtonGroup />} />
+          <Route path="badge" element={<Badge />} />
+          <Route path="checkbox" element={<Checkbox />} />
+          <Route path="table" element={<Table />} />
+          <Route path="toolbar" element={<Toolbar />} />
+          <Route path="toolkit" element={<Toolkit />} />
+          <Route path="side-menu" element={<SideMenu />} />
+          <Route path="tab" element={<Tab />} />
+          <Route path="card" element={<Card />} />
+          <Route path="chart" element={<Chart />} />
+          <Route path="dialog" element={<Dialog />} />
+          <Route path="chatbox" element={<ChatBox />} />
+          <Route path="avatar" element={<Avatar />} />
+          <Route path="chip" element={<Chip />} />
+          <Route path="tag" element={<Tag />} />
+          <Route path="tiered-menu" element={<TieredMenu />} />
+          <Route path="dropdown" element={<Dropdown />} />
+          <Route path="accordion" element={<Accordion />} />
+          <Route path="message" element={<Message />} />
+          <Route path="popup" element={<Popup />} />
+          <Route path="toast" element={<Toast />} />
+          <Route path="steps" element={<Steps />} />
+          <Route path="notifications-panel" element={<NotificationsPanel />} />
+          <Route path="input-switch" element={<InputSwitch />} />
+          <Route path="radio" element={<Radio />} />
+          <Route path="breadcrumb" element={<Breadcrumb />} />
+          <Route path="dropbox" element={<Dropbox />} />
+          <Route path="preview" element={<Preview />} />
+          <Route path="divider" element={<Divider />} />
+          <Route path="multi-select" element={<MultiSelect />} />
+          <Route path="input-mask" element={<InputMask />} />
+          <Route path="input-text" element={<InputText />} />
+          <Route path="overlay-panel" element={<OverlayPanel />} />
+          <Route path="panel" element={<Panel />} />
+          <Route path="input-group" element={<InputGroup />} />
+          <Route path="select-button" element={<SelectButton />} />
+          <Route path="message-inline" element={<MessageInline />} />
+          <Route path="text-area" element={<InputTextArea />} />
+          <Route path="table" element={<Table />} />
+          <Route path="calendar" element={<Calendar />} />
+          <Route path="tooltip" element={<Tooltip />} />
+          <Route path="tree" element={<Tree />} />
+      </Routes>
     </>
   );
 };
