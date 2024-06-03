@@ -21,7 +21,10 @@ window.open("https://github.com/shubham9069/Shadow-UI-React-Example", "_blank");
     <div className={styles["header-conatiner"]}>
       <ShadowCard>
         {" "}
-        <h1 style={{ color: "#001D4F" }}> Welcome to Shadow UI Design by Shubham  </h1>
+        <h1 style={{ color: "#001D4F" }}>
+          {" "}
+          Welcome to Shadow UI Design by Shubham{" "}
+        </h1>
       </ShadowCard>
 
       <div className={styles["section-headline"]}>
@@ -71,17 +74,18 @@ window.open("https://github.com/shubham9069/Shadow-UI-React-Example", "_blank");
         <ol>
           {/* setp -1 */}
           <li>
-            Include the Package in Your Project: 
+            Run npm install:
             <br />
             <p>
               {" "}
-              Store the .tgz file in a location accessible to your application's
-              build process. This could be within your project directory or a
-              location where your build system can retrieve it.
+              during the production build process, run npm install to install
+              dependencies. npm will fetch the package specified in the
+              package.json and install it into the node_modules directory of
+              your project.
             </p>
           </li>
           {/* step-2 */}
-          <li>
+          {/* <li>
             Add it to package.json:
             <br />
             <p>
@@ -94,17 +98,27 @@ window.open("https://github.com/shubham9069/Shadow-UI-React-Example", "_blank");
               className={styles["step-image"]}
               alt="step-2"
             />
-          </li>
+          </li> */}
           {/*  step-3 */}
+
           <li>
-            Run npm install:
+            Include the Package in Your Project:
             <br />
             <p>
               {" "}
-              during the production build process, run npm install to install
-              dependencies. npm will fetch the package specified in the
-              package.json and install it into the node_modules directory of
-              your project.
+              Run this command
+              <div
+                style={{
+                  color: "#5f6a7f",
+                  padding: "1rem",
+                  border: "1px solid #5f6a7f",
+                  margin: "1rem",
+                  borderRadius: "6px",
+                  width: "max-content",
+                }}
+              >
+                npm i shadow-ui-react
+              </div>
             </p>
           </li>
           {/* step -4 */}
@@ -125,7 +139,7 @@ window.open("https://github.com/shubham9069/Shadow-UI-React-Example", "_blank");
           </li>
           {/* step-5 */}
           <li>
-          Import CSS:
+            Import CSS:
             <br />
             <p>
               {" "}

@@ -8,10 +8,11 @@ import { Console } from "console";
 import { ShadowToast, ShadowToastItem } from "shadow-ui-react";
 import { isVisible } from "@testing-library/user-event/dist/utils";
 interface CodeEditorProps {
-  componentToString:string
+  componentToString:string,
+  height?:string
 }
 
-const CodeEditor = ({ componentToString="" }: CodeEditorProps) => {
+const CodeEditor = ({ componentToString="" ,height="500px"}: CodeEditorProps) => {
   const [isVisible,setisVisible] = useState(false)
   function copyCode(){
     navigator.clipboard.writeText(componentToString);
@@ -35,7 +36,7 @@ const CodeEditor = ({ componentToString="" }: CodeEditorProps) => {
       </div>
       <ReactCodeMirror
         className={styles["code-mirror"]}
-        height="500px"
+        height={height}
         value={componentToString}
         theme="dark"
         extensions={[javascript({ jsx: true })]}

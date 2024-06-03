@@ -153,7 +153,7 @@ const Layout = () => {
       <div className={styles["content"]}>
         <PageRoutes />
       </div>
-      <ChatBox />
+      {/* <ChatBox /> */}
     </div>
   );
 };
